@@ -1,6 +1,5 @@
-<h1>This is the questions page.</h1>
-<p>congratulations pema. ask any question you want.</p>
-<form action="???">
-  <input type="text" name="answer">
+<h3>Write to the coach.</h3>
+<form action="/answer">
+  <input type="text" name="response" value="<%= params[:message]%>">
   <input type="submit" value="Ask!">
 </form>
